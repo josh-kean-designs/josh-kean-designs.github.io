@@ -4,6 +4,7 @@
     <title>Colorlib Construct</title>
     <meta charset="utf-8">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  </head>
     <body class="bg-secondary">
 		<nav class="navbar navbar sticky-top navbar-dark bg-dark">
 			<a class="navbar-brand" href="#">
@@ -14,33 +15,29 @@
 			  </span>
 			    <ul class="nav h2 text-center">
 			  <li class="nav-item">
-			    <a class="nav-link" href="index.html">Home</a>
+			    <a class="nav-link" href="index">Home</a>
 			  </li>
 			  <li class="nav-item">
-			    <a class="nav-link" href="about.html">About</a>
+			    <a class="nav-link" href="about">About</a>
 			  </li>
 			  <li class="nav-item">
-			    <a class="nav-link" href="services.html">Services</a>
+			    <a class="nav-link" href="services">Services</a>
 			  </li>
 			  <li class="nav-item">
-			    <a class="nav-link" href="contact.html">Contact</a>
+			    <a class="nav-link" href="contact">Contact</a>
 			  </li>
 			</ul>
 			  </a>
 
 		</nav>
-		<div>
-			<div class="card bg-secondary text-white">
-		  <img src="images/chicago.jpg" class="card-img" style="object-fit: cover" >
-		  <div class="card-img-overlay" style="align-items:center">
-		    <h2 class="card-title text-center font-weight-bold">About Us</h2>
-		    <p class="card-text text-center">Text about the company</p>
-		    <p class="card-text text-center">Sentence about company history</p>
-		    <p class="card-text text-center">Licensing information</p>
-		  </div>
-			</div>
+		<div class="bg-secondary">
+			<p class="text-center text-white h2">Contact</p>
+			<p class="text-center text-white">123 A Street, Los Angeles, CA</p>
+			<p class="text-center text-white">Email: info@yourcompanyemail.com</p>
+			<p class="text-center text-white">Office: 555-123-4567</p>
+			<p class="text-center text-white">Fax: 555-222-1122</p>
 		</div>
-		<nav class="navbar navbar fixed-bottom navbar-dark bg-dark">
+		<nav class="navbar navbar fixed-bottom navbar-dark bg-dark" style="height: 70px">
 			  <span class="text-center navbar-text h3" >
 			  Copyright Your Company Name 2020
 			  </span>
@@ -48,4 +45,3 @@
 
     </body>
 
-  </head>
